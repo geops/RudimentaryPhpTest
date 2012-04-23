@@ -68,7 +68,7 @@ abstract class RudimentaryPhpTest_BaseTest implements RudimentaryPhpTest_Asserti
 	 */
 	public function tearDown(){}
 	
-	public function assertTrue($actual, $message){
+	public function assertTrue($actual, $message=NULL){
 		if($message===NULL){
 			$message = 'Condition has to be true / fulfilled.';
 		}
