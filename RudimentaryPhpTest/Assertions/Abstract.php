@@ -15,7 +15,7 @@ abstract class RudimentaryPhpTest_Assertions_Abstract implements RudimentaryPhpT
 		$this->test = $test;
 	}
 	
-	public function assertTrue($actual, $message){
+	public function assertTrue($actual, $message=Null){
 		$this->test->assertTrue($actual, $message);
 	}
 	
