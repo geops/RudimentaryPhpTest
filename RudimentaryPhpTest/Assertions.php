@@ -7,7 +7,7 @@ interface RudimentaryPhpTest_Assertions {
 	/**
 	 * Asserts that a condition holds
 	 */
-	public function assertTrue($actual, $message);
+	public function assertTrue($actual, $message=NULL);
 	
 	/**
 	 * Type-safe comparison of 2 objects
